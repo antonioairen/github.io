@@ -59,7 +59,7 @@
                 background-size: cover;
                 min-height: 500px; 
                 /*background-image: url(../images/carreramujer.jpg);*/
-                background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(../images/carreramujer.jpg);
+                background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(./images/carreramujer.jpg);
                 background-repeat: no-repeat;
                 position: relative;
                 z-index: 1;
