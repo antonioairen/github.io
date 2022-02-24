@@ -1,0 +1,99 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto;
+    }
+
+    .cabecera { 
+        grid-area: 1 / 1 / 2 / 2;  
+        background-image: linear-gradient(to bottom, #5DADE2 20%, #BB8FCE );
+        }
+    .menu { 
+        text-align: center;
+        grid-area: 1 / 2 / 2 / 5;
+        vertical-align: middle;
+        background-image: linear-gradient(to bottom, #5DADE2 20%, #BB8FCE );
+    }
+    ul, ol {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        
+    }
+    .nav li a {
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    .nav li a:hover{
+    background-color: #434343;
+    }
+    .nav > li {
+        display: inline;
+        
+    }
+    .nav li ul {
+    position: absolute ;
+    min-width: auto;
+    }
+    .redessociales { grid-area: 1 / 5 / 2 / 6; 
+        background-image: linear-gradient(to bottom, #5DADE2 20%, #BB8FCE );
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .redessociales img{
+        padding: 10px;
+
+    }
+    .cuerpo { grid-area: 2 / 1 / 5 / 6;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        min-height: 500px;
+        background-image: linear-gradient(to bottom,#BB8FCE, #5DADE2 5%, transparent), url(./Images/carrera.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+     }
+     .cuerpo p{
+         padding-left: 100px;
+         padding-right: 100px;
+     }
+    .fotoayuntamiento { grid-area: 5 / 1 / 6 / 2;
+    background-image: linear-gradient(to bottom, #5DADE2 20%, #BB8FCE );
+
+    }
+    .redessocialesPie { grid-area: 5 / 2 / 6 / 5; 
+        background-image: linear-gradient(to bottom, #5DADE2 20%, #BB8FCE );
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .redessocialesPie img{  
+        padding: 20px;
+    }
+    .castillalamancha { grid-area: 5 / 5 / 6 / 6; 
+        background-image: linear-gradient(to bottom, #5DADE2 20%, #BB8FCE );
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+    }
