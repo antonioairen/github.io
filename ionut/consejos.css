@@ -1,0 +1,14 @@
+.todo1{
+    background-image:linear-gradient(#FFF001,#4EFF01,#aff5e9,#24FAA0,#FEFE11 );
+font-size:xx-large;
+font: small-caps 150%/200% serif;
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+    }
+    
