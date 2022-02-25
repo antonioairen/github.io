@@ -1,4 +1,4 @@
-            .parent {
+        .parent {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-template-rows: repeat(5, 1fr);
@@ -82,8 +82,9 @@
             color: aliceblue;
             -webkit-text-stroke: 1px black;
             float: right;
-            text-align: right;
+            text-align: left;
             padding-top: 250px;
+            padding-left: 10px;
         }
         
         .movil {
