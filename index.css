@@ -1,4 +1,4 @@
-         /* PCs y Portátiles */
+   /* PCs y Portátiles */
   
   @media only screen and (min-width: 600px) {
       .parent {
@@ -25,13 +25,14 @@
           background-image: linear-gradient(#D99EF9, #BFE6F5);
           height: auto;
           text-align: center;
+          font-family: arial;
       }
       ul.nav {
           list-style-type: none;
           margin: 0;
           padding: 0;
           overflow: hidden;
-          background-color: #333;
+          background-color: rgba(82, 78, 78, 0.3);
       }
       ul.nav li {
           float: left;
@@ -139,13 +140,14 @@
           background-image: linear-gradient(#D99EF9, #BFE6F5);
           height: auto;
           text-align: center;
+          font-family: arial;
       }
       ul.nav {
           list-style-type: none;
           margin: 0;
           padding: 0;
           overflow: hidden;
-          background-color: #333;
+          background-color: rgba(82, 78, 78, 0.3);
       }
       ul.nav li a {
           display: block;
