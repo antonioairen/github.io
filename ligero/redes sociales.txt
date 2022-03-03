@@ -1,0 +1,14 @@
+  <div class="redessociales"> 
+            <a href="https://www.instagram.com/ies_airen_tomelloso/?hl=es">
+                <img src="./Images/instagram.png">
+                     </a>
+            <a href="https://es-es.facebook.com/ies.airen/">
+                <img src="./Images/facebook.png">
+                     </a>
+            <a href="https://twitter.com/ondaairen">
+                <img src="./Images/twiter.png">
+                     </a>
+            <a href="https://www.youtube.com/channel/UCIEkpVFuACWV0578qlE3P6w">
+                <img src="./Images/youtube.png">
+            </a>
+        </div>
