@@ -1,4 +1,4 @@
-   /* PCs y Portátiles */
+  /* PCs y Portátiles */
   
   @media only screen and (min-width: 600px) {
       .parent {
@@ -44,6 +44,7 @@
           padding: 14px 16px;
           text-decoration: none;
           font-weight: bold;
+          font-size: 26px;
       }
       ul.nav li a:hover:not(.active) {
           background-color: #111;
