@@ -36,6 +36,7 @@
       }
       ul.nav li {
           float: left;
+          padding-left: 1em;
       }
       ul.nav li a {
           display: block;
@@ -47,7 +48,7 @@
           font-size: 26px;
       }
       ul.nav li a:hover:not(.active) {
-          background-color: #111;
+          background-color: #8cdce0;
       }
       ul.nav li a.active {
           background-color: #04AA6D;
@@ -77,14 +78,20 @@
           float: right;
       }
       .derecha {
-          font-family: 'Anton', sans-serif;
+          font-family: 'Kanit', sans-serif;
+          font-family: 'Neonderthaw', cursive;
+          font-family: 'Open Sans', sans-serif;
           font-size: 30px;
-          color: aliceblue;
-          -webkit-text-stroke: 1px black;
+          color: black;
+          -webkit-text-stroke: 1px white;
           float: right;
           text-align: left;
           padding-top: 250px;
           padding-left: 10px;
+      }
+      .derecha img,
+      iframe {
+          margin-top: -230px;
       }
       .movil {
           grid-area: 2 / 1 / 5 / 3;
@@ -159,16 +166,15 @@
           font-weight: bold;
       }
       ul.nav li a:hover:not(.active) {
-          background-color: #111;
+          background-color: #8cdce0;
       }
       ul.nav li a.active {
           background-color: #04AA6D;
       }
-      
       ul.nav li {
           float: none;
       }
-      ul.nav li.right{
+      ul.nav li.right {
           display: none;
       }
       .cuerpo {
@@ -186,23 +192,28 @@
           font-size: 50px;
           color: white;
           text-shadow: 1.5px 5px 2.5px rgb(176, 129, 251);
-          padding-left: 0px;
-          padding-top: 0px;
+          padding-left: 0.3em;
+          padding-top: 0.3em;
           float: none;
           height: auto;
           width: auto;
       }
       .derecha {
-          font-family: 'Anton', sans-serif;
+          font-family: 'Kanit', sans-serif;
+          font-family: 'Neonderthaw', cursive;
+          font-family: 'Open Sans', sans-serif;
           font-size: 30px;
-          color: aliceblue;
-          -webkit-text-stroke: 1px black;
+          color: black;
+          -webkit-text-stroke: 1px white;
           float: none;
           text-align: left;
-          padding-top: 0px;
-          padding-left: 0px;
+          padding-top: 2px;
+          padding-left: 2px;
           height: auto;
           width: auto;
+      }
+      .derecha img {
+          padding-left: 2em;
       }
       .pie {
           grid-area: 4 / 1 / 5 / 2;
@@ -215,6 +226,6 @@
           width: auto;
       }
       .pie img {
-          max-width: 50%;
+          max-width: 100%;
       }
   }
