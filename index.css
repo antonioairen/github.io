@@ -164,9 +164,12 @@
       ul.nav li a.active {
           background-color: #04AA6D;
       }
-      ul.nav li.right,
+      
       ul.nav li {
           float: none;
+      }
+      ul.nav li.right{
+          display: none;
       }
       .cuerpo {
           grid-area: 3 / 1 / 4 / 2;
