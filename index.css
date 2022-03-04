@@ -134,7 +134,7 @@
           width: auto;
       }
       .cabecera img {
-          max-width: 50%;
+          max-width: 100%;
       }
       .menu {
           grid-area: 2 / 1 / 3 / 2;
