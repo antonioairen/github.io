@@ -81,9 +81,10 @@
           font-family: 'Kanit', sans-serif;
           font-family: 'Neonderthaw', cursive;
           font-family: 'Open Sans', sans-serif;
-          font-size: 30px;
-          color: black;
-          -webkit-text-stroke: 1px white;
+          font-weight: bolder;
+          font-size: 35px;
+          color: white;
+          -webkit-text-stroke: 2px rgb(116, 113, 113);
           float: right;
           text-align: left;
           padding-top: 250px;
@@ -92,6 +93,10 @@
       .derecha img,
       iframe {
           margin-top: -230px;
+      }
+      .derecha iframe {
+          width: 500px;
+          height: 692px;
       }
       .movil {
           grid-area: 2 / 1 / 5 / 3;
@@ -202,9 +207,10 @@
           font-family: 'Kanit', sans-serif;
           font-family: 'Neonderthaw', cursive;
           font-family: 'Open Sans', sans-serif;
-          font-size: 30px;
-          color: black;
-          -webkit-text-stroke: 1px white;
+          font-weight: bolder;
+          font-size: 35px;
+          color: white;
+          -webkit-text-stroke: 2px rgb(116, 113, 113);
           float: none;
           text-align: left;
           padding-top: 2px;
@@ -214,6 +220,10 @@
       }
       .derecha img {
           padding-left: 2em;
+      }
+      .derecha iframe {
+          width: 400px;
+          height: 692px;
       }
       .pie {
           grid-area: 4 / 1 / 5 / 2;
