@@ -98,6 +98,46 @@
           width: 500px;
           height: 692px;
       }
+    .derecha .slider{
+        width: 25%;
+        
+        overflow: hidden;
+      }
+     .derecha .slider ul{
+          display: flex;
+          animation: cambio 10s infinite linear;
+          width: 600%;
+      }
+     .derecha .slider li{
+          width: 100%;
+          list-style: none;
+      }
+     .derecha .slider img{
+          width: 100%;
+         
+      }
+      @keyframes cambio{
+          0%{margin-left: 0;}
+          12%{margin-left: 0;}
+          
+          17%{margin-left: -100%;}
+          29%{margin-left: -100%;}
+          
+          34%{margin-left: -200%;}
+          46%{margin-left: -200%;}
+          
+          51%{margin-left: -300%;}
+          63%{margin-left: -300%;}
+      
+          68%{margin-left: -400%;}
+          80%{margin-left: -400%;}
+      
+          85%{margin-left: -500%;}
+          100%{margin-left: -500%;}
+      }
+
+
+    
       .movil {
           grid-area: 2 / 1 / 5 / 3;
       }
@@ -225,6 +265,45 @@
           width: 400px;
           height: 692px;
       }
+    .derecha .slider{
+        width: 25%;
+        
+        overflow: hidden;
+      }
+     .derecha .slider ul{
+          display: flex;
+          animation: cambio 10s infinite linear;
+          width: 600%;
+      }
+     .derecha .slider li{
+          width: 100%;
+          list-style: none;
+      }
+     .derecha .slider img{
+          width: 100%;
+         
+      }
+      @keyframes cambio{
+          0%{margin-left: 0;}
+          12%{margin-left: 0;}
+          
+          17%{margin-left: -100%;}
+          29%{margin-left: -100%;}
+          
+          34%{margin-left: -200%;}
+          46%{margin-left: -200%;}
+          
+          51%{margin-left: -300%;}
+          63%{margin-left: -300%;}
+      
+          68%{margin-left: -400%;}
+          80%{margin-left: -400%;}
+      
+          85%{margin-left: -500%;}
+          100%{margin-left: -500%;}
+      }
+
+
       .pie {
           grid-area: 4 / 1 / 5 / 2;
           background-image: linear-gradient(#BFE6F5 25%, #68FFDF);
