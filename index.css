@@ -156,9 +156,11 @@
         grid-area: 2 / 1 / 5 / 3;
     }
     .texto2 {
+        font-size: 35px;
         text-align: justify;
         padding-top: 5px;
-        padding-left: 50px;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .informacion {
         grid-area: 2 / 3 / 5 / 6;
