@@ -89,6 +89,7 @@
           text-align: left;
           padding-top: 250px;
           padding-left: 2em;
+          padding-bottom:2em;
       }
       .derecha img,
       iframe {
@@ -257,6 +258,7 @@
           padding-left: 2px;
           height: auto;
           width: auto;
+          padding-bottom:2em;
       }
       .derecha img {
           padding-left: 2em;
