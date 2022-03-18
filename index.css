@@ -62,7 +62,7 @@
             background-position: center;
             background-size: cover;
             min-height: 1000px;
-            background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(./images/carreramujer.jpg);
+            background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(./images/carreramujer2.png);
             background-repeat: no-repeat;
             display: flex;
         }
@@ -253,7 +253,7 @@
             grid-area: 3 / 1 / 4 / 2;
             background-position: center;
             background-size: cover;
-            background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(./images/carreramujer.jpg);
+            background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(./images/carreramujer2.png);
             background-repeat: no-repeat;
             display: inline;
             height: auto;
