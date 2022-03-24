@@ -1,6 +1,6 @@
     /* PCs y Portátiles */
     
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 901px) {
         .parent {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
@@ -45,7 +45,7 @@
             padding: 14px 16px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 26px;
+            font-size: 23px;
         }
         ul.nav li a:hover:not(.active) {
             background-color: #8cdce0;
@@ -102,9 +102,15 @@
             padding-left: 0.4em;
             font-size: 30px;
         }
+        .derecha img {
+            padding-top: 0.5em;
+            max-width: 100%;
+        }
         .derecha .slider {
             width: 70%;
             overflow: hidden;
+            display: block;
+            margin: auto;
         }
         .derecha .slider ul {
             padding: 0;
@@ -189,7 +195,211 @@
             padding: 2em;
         }
     }
-    /* Móvil y Tablets */
+    /* Tablet y resolución baja */
+    
+    @media only screen and (min-width: 601px) and (max-width: 900px) {
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+        }
+        .cabecera {
+            grid-area: 1 / 1 / 2 / 6;
+            display: flex;
+            background-color: #D99EF9;
+            text-decoration: none;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: auto;
+        }
+        .cabecera img {
+            max-width: 100%;
+        }
+        .menu {
+            grid-area: 2 / 1 / 3 / 6;
+            background-image: linear-gradient(#D99EF9, #BFE6F5);
+            height: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(82, 78, 78, 0.3);
+        }
+        ul.nav li {
+            float: left;
+            padding-left: 0.2em;
+        }
+        ul.nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        ul.nav li a:hover:not(.active) {
+            background-color: #8cdce0;
+        }
+        ul.nav li a.active {
+            background-color: #04AA6D;
+        }
+        ul.nav li.right {
+            float: right;
+        }
+        .cuerpo {
+            grid-area: 3 / 1 / 7 / 6;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to right, #BFE6F5 33%, transparent), url(./images/carreramujer2.png);
+            background-repeat: no-repeat;
+            display: flex;
+            height: auto;
+            width: auto;
+        }
+        .texto1 {
+            font-family: 'Anton', sans-serif;
+            font-size: 50px;
+            color: white;
+            text-shadow: 1.5px 5px 2.5px rgb(176, 129, 251);
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            padding-top: 0.5em;
+            float: right;
+            height: auto;
+            width: 40%;
+        }
+        .derecha {
+            font-family: 'Kanit', sans-serif;
+            font-family: 'Neonderthaw', cursive;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 35px;
+            color: white;
+            -webkit-text-stroke: 2px rgb(1, 31, 129, 255);
+            width: 60%;
+            float: right;
+            text-align: left;
+            padding-top: 1em;
+            padding-bottom: 2em;
+        }
+        .derecha iframe {
+            width: 400px;
+            height: 692px;
+        }
+        .derecha th {
+            text-align: center;
+        }
+        .derecha td {
+            padding-left: 0.3em;
+            font-size: 30px;
+        }
+        .derecha img {
+            padding-top: 0.5em;
+            max-width: 100%;
+        }
+        .derecha .slider {
+            width: 70%;
+            overflow: hidden;
+            display: block;
+            margin: auto;
+        }
+        .derecha .slider ul {
+            padding: 0;
+            display: flex;
+            animation: cambio 10s infinite linear;
+            width: 700%;
+        }
+        .derecha .slider li {
+            width: 100%;
+            list-style: none;
+        }
+        .derecha .slider img {
+            width: 100%;
+        }
+        @keyframes cambio {
+            0% {
+                margin-left: 0%;
+            }
+            10% {
+                margin-left: 0%;
+            }
+            15% {
+                margin-left: -100%;
+            }
+            25% {
+                margin-left: -100%;
+            }
+            30% {
+                margin-left: -200%;
+            }
+            40% {
+                margin-left: -200%;
+            }
+            45% {
+                margin-left: -300%;
+            }
+            55% {
+                margin-left: -300%;
+            }
+            60% {
+                margin-left: -400%;
+            }
+            70% {
+                margin-left: -400%;
+            }
+            75% {
+                margin-left: -500%;
+            }
+            85% {
+                margin-left: -500%;
+            }
+            90% {
+                margin-left: -600%;
+            }
+            100% {
+                margin-left: -600%;
+            }
+        }
+        .movil {
+            grid-area: 2 / 1 / 5 / 3;
+        }
+        .texto2 {
+            font-size: 35px;
+            text-align: justify;
+            padding-top: 5px;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        .informacion {
+            grid-area: 2 / 3 / 5 / 6;
+            font-size: 35px;
+        }
+        .pie {
+            grid-area: 7 / 1 / 8 / 6;
+            background-image: linear-gradient(#BFE6F5 25%, #68FFDF);
+            display: flexbox;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: auto;
+            padding-top: 1em;
+        }
+        .pie img {
+            padding: 2em;
+        }
+    }
+    /* Móvil */
     
     @media only screen and (max-width: 600px) {
         .parent {
@@ -284,9 +494,6 @@
             padding-top: 1em;
             padding-bottom: 2em;
         }
-        .derecha img {
-            padding-left: 2em;
-        }
         .derecha iframe {
             width: 370px;
             height: 692px;
@@ -298,9 +505,17 @@
             padding-left: 0.2em;
             font-size: 30px;
         }
+        .derecha img {
+            display: block;
+            margin: auto;
+            padding-top: 0.5em;
+            max-width: 100%;
+        }
         .derecha .slider {
             width: 70%;
             overflow: hidden;
+            display: block;
+            margin: auto;
         }
         .derecha .slider ul {
             padding: 0;
