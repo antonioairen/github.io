@@ -116,7 +116,7 @@
             padding: 0;
             display: flex;
             animation: cambio 10s infinite linear;
-            width: 700%;
+            width: 800%;
         }
         .derecha .slider li {
             width: 100%;
@@ -129,44 +129,50 @@
             0% {
                 margin-left: 0%;
             }
-            10% {
+            8% {
                 margin-left: 0%;
             }
-            15% {
+            13% {
                 margin-left: -100%;
             }
-            25% {
+            21% {
                 margin-left: -100%;
             }
-            30% {
+            26% {
                 margin-left: -200%;
             }
-            40% {
+            34% {
                 margin-left: -200%;
             }
-            45% {
+            39% {
                 margin-left: -300%;
             }
-            55% {
+            47% {
                 margin-left: -300%;
+            }
+            52% {
+                margin-left: -400%;
             }
             60% {
                 margin-left: -400%;
             }
-            70% {
-                margin-left: -400%;
-            }
-            75% {
+            65% {
                 margin-left: -500%;
             }
-            85% {
+            73% {
                 margin-left: -500%;
             }
-            90% {
+            78% {
                 margin-left: -600%;
+            }
+            86% {
+                margin-left: -600%;
+            }
+            91% {
+                margin-left: -700%;
             }
             100% {
-                margin-left: -600%;
+                margin-left: -700%;
             }
         }
         .movil {
@@ -317,7 +323,7 @@
             padding: 0;
             display: flex;
             animation: cambio 10s infinite linear;
-            width: 700%;
+            width: 800%;
         }
         .derecha .slider li {
             width: 100%;
@@ -330,44 +336,50 @@
             0% {
                 margin-left: 0%;
             }
-            10% {
+            8% {
                 margin-left: 0%;
             }
-            15% {
+            13% {
                 margin-left: -100%;
             }
-            25% {
+            21% {
                 margin-left: -100%;
             }
-            30% {
+            26% {
                 margin-left: -200%;
             }
-            40% {
+            34% {
                 margin-left: -200%;
             }
-            45% {
+            39% {
                 margin-left: -300%;
             }
-            55% {
+            47% {
                 margin-left: -300%;
+            }
+            52% {
+                margin-left: -400%;
             }
             60% {
                 margin-left: -400%;
             }
-            70% {
-                margin-left: -400%;
-            }
-            75% {
+            65% {
                 margin-left: -500%;
             }
-            85% {
+            73% {
                 margin-left: -500%;
             }
-            90% {
+            78% {
                 margin-left: -600%;
+            }
+            86% {
+                margin-left: -600%;
+            }
+            91% {
+                margin-left: -700%;
             }
             100% {
-                margin-left: -600%;
+                margin-left: -700%;
             }
         }
         .movil {
@@ -521,7 +533,7 @@
             padding: 0;
             display: flex;
             animation: cambio 10s infinite linear;
-            width: 700%;
+            width: 800%;
         }
         .derecha .slider li {
             width: 100%;
@@ -535,44 +547,50 @@
             0% {
                 margin-left: 0%;
             }
-            10% {
+            8% {
                 margin-left: 0%;
             }
-            15% {
+            13% {
                 margin-left: -100%;
             }
-            25% {
+            21% {
                 margin-left: -100%;
             }
-            30% {
+            26% {
                 margin-left: -200%;
             }
-            40% {
+            34% {
                 margin-left: -200%;
             }
-            45% {
+            39% {
                 margin-left: -300%;
             }
-            55% {
+            47% {
                 margin-left: -300%;
+            }
+            52% {
+                margin-left: -400%;
             }
             60% {
                 margin-left: -400%;
             }
-            70% {
-                margin-left: -400%;
-            }
-            75% {
+            65% {
                 margin-left: -500%;
             }
-            85% {
+            73% {
                 margin-left: -500%;
             }
-            90% {
+            78% {
                 margin-left: -600%;
+            }
+            86% {
+                margin-left: -600%;
+            }
+            91% {
+                margin-left: -700%;
             }
             100% {
-                margin-left: -600%;
+                margin-left: -700%;
             }
         }
         .texto2 {
