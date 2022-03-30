@@ -77,6 +77,9 @@
             padding-top: 100px;
             float: right;
         }
+        .texto1 img {
+            max-width: 100%;
+        }
         .derecha {
             font-family: 'Kanit', sans-serif;
             font-family: 'Neonderthaw', cursive;
@@ -283,6 +286,9 @@
             float: right;
             height: auto;
             width: 40%;
+        }
+        .texto1 img {
+            max-width: 100%;
         }
         .derecha {
             font-family: 'Kanit', sans-serif;
@@ -491,6 +497,9 @@
             float: none;
             height: auto;
             width: auto;
+        }
+        .texto1 img {
+            max-width: 100%;
         }
         .derecha {
             font-family: 'Kanit', sans-serif;
